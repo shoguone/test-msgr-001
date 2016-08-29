@@ -1,0 +1,10 @@
+{
+    "apps" : [{
+        "name"       : "fb bot server",
+        "script"     : "app.js",
+        "log_date_format" : "YYYY-MM-DD HH:mm:ss.SS",
+        "error_file" : "./logs/err.log",
+        "out_file"   : "./logs/out.log",
+        "pid_file"   : "./logs/child.pid"
+    }]
+}

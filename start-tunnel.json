@@ -1,0 +1,10 @@
+{
+    "apps" : [{
+        "name"       : "fb bot localtunnel",
+        "script"     : "localtunnel.js",
+        "log_date_format" : "YYYY-MM-DD HH:mm:ss.SS",
+        "error_file" : "./logs/localtunnel/err.log",
+        "out_file"   : "./logs/localtunnel/out.log",
+        "pid_file"   : "./logs/localtunnel/child.pid"
+    }]
+}
